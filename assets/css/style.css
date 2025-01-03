@@ -1,0 +1,25 @@
+.bg-gradient-orange {
+    background-color: #fd7e14 !important;
+    background-image: linear-gradient(180deg, #fd7e14 10%, #e9650c 100%) !important;
+    background-size: cover;
+}
+
+.text-orange {
+    color: #fd7e14 !important;
+}
+
+.bg-orange {
+    background-color: #fd7e14 !important;
+}
+
+.btn-orange {
+    color: #fff;
+    background-color: #fd7e14;
+    border-color: #fd7e14;
+  }
+
+.bg-gradient-orange {
+    background-color: #fd7e14;
+    background-image: linear-gradient(180deg, #fd7e14 10%, #ff7300 100%);
+    background-size: cover;
+  }
