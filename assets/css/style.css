@@ -16,10 +16,53 @@
     color: #fff;
     background-color: #fd7e14;
     border-color: #fd7e14;
-  }
+}
 
 .bg-gradient-orange {
     background-color: #fd7e14;
     background-image: linear-gradient(180deg, #fd7e14 10%, #ff7300 100%);
     background-size: cover;
-  }
+}
+
+.card-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Full viewport height */
+}
+
+.card {
+    width: 50%;
+    /* Set the card to 50% width */
+}
+
+/* Stretch the input fields vertically */
+.form-control {
+    min-height: 45px;
+    /* Ensure inputs are large enough */
+    height: auto;
+    /* Allow height to grow */
+}
+
+.form-group {
+    margin-bottom: 20px;
+    /* Add space between form groups */
+}
+
+/* Memberikan jarak antar tombol */
+.btn-user {
+    margin-bottom: 10px;
+}
+
+/* Membuat tombol berbentuk oval */
+.btn-oval {
+    border-radius: 300px; /* Sudut bulat membuat tombol oval */
+}
+
+/* Opsi untuk tampilan hover */
+.btn-oval:hover {
+    opacity: 0.9; /* Memberikan efek hover */
+    transform: scale(1.02); /* Sedikit membesarkan tombol saat hover */
+    transition: all 0.3s ease-in-out; /* Animasi saat hover */
+}

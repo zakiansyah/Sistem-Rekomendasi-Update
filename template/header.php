@@ -109,23 +109,6 @@
             <span>Data Perhitungan</span></a>
         </li>
 
-        <!-- <li class="nav-item">
-          <a class="nav-link collapsed" href="javascript:void(0);" data-toggle="collapse" data-target="#collapsePerhitungan" aria-expanded="false" aria-controls="collapsePerhitungan">
-            <i class="fas fa-fw fa-calculator"></i>
-            <span>Data Perhitungan</span>
-          </a>
-          <div id="collapsePerhitungan" class="collapse" aria-labelledby="headingPerhitungan" data-parent="#accordionSidebar">
-            <div class="bg-white py-2 collapse-inner rounded">
-              <a class="collapse-item" href="matrix-keputusan.php">Matrix Keputusan</a>
-              <a class="collapse-item" href="bobot-kriteria.php">Bobot Kriteria</a>
-              <a class="collapse-item" href="matrix-ternormalisasi.php">Matrix Ternormalisasi</a>
-              <a class="collapse-item" href="matrix-ternormalisasi-terbobot.php">Matrix Ternormalisasi<br>Terbobot</a>
-              <a class="collapse-item" href="perhitungan-nilai.php">Perhitungan Nilai</a>
-            </div>
-          </div>
-        </li> -->
-
-
         <li class="nav-item <?php if ($page == "Hasil") {
                               echo "active";
                             } ?>">
@@ -194,7 +177,6 @@
             <i class="fas fa-fw fa-user"></i>
             <span>Data Profile</span></a>
         </li>
-
       <?php
       }
       ?>
